@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0D1321;
+}
+
+.header_container{
+    background-image: url("./assets/Hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* padding: 50px 100px; */
+}
+
+.header_content h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.header_content p{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    line-height: 25px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
+.header_content .btn{
+    margin-top: 10px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(13, 19, 33);
+    padding: 10px 50px 10px 15px;
+    border-radius: 8px;
+}
