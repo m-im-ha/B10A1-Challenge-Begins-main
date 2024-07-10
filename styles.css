@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   color: #0d1321;
+  
 }
 
 .header_container {
@@ -57,6 +58,7 @@ body {
   background-color: rgb(13, 19, 33);
   padding: 10px 50px 10px 15px;
   border-radius: 8px;
+  scroll-behavior: smooth;
 }
 
 /* main */
@@ -255,4 +257,58 @@ body {
   font-size: 18px;
   font-weight: 700;
   text-underline-offset: 3px;
+}
+
+/* Support section */
+
+.support {
+  margin: 50px 0;
+  background-image: url("./assets/handshake.jpg");
+  background-color: rgba(13, 19, 33, 0.5);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.support_content h2 {
+  color: rgba(255, 255, 255, 1);
+}
+.support_content p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.input_container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.input_container input {
+  border: none;
+  padding: 11px;
+  border-radius: 6px;
+  width: 50%;
+}
+
+.input_container input::placeholder {
+  color: rgba(13, 19, 33, 0.6);
+  font-weight: 500;
+}
+
+.input_container button{
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    padding: 11px 15px;
+    border-radius: 6px;
 }
