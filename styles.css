@@ -61,12 +61,15 @@ body {
 
 /* main */
 .main_part {
-  background-color: rgba(13, 19, 33, 0.02);
-  margin: 80px 150px;
-  border-radius: 8px;
+    margin: 80px 150px;
+    border-radius: 8px;
 }
 
 /* web-development section */
+
+.web_development{
+    background-color: rgba(13, 19, 33, 0.02);
+}
 
 .web_development_container {
   display: flex;
