@@ -15,7 +15,6 @@ body {
   margin: 0;
   padding: 0;
   color: #0d1321;
-  
 }
 
 .header_container {
@@ -284,12 +283,12 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.input_container{
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+.input_container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
 
 .input_container input {
@@ -304,11 +303,30 @@ body {
   font-weight: 500;
 }
 
-.input_container button{
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    border: none;
-    padding: 11px 15px;
-    border-radius: 6px;
+.input_container button {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  padding: 11px 15px;
+  border-radius: 6px;
+}
+
+/* footer */
+footer {
+  background-color: rgba(13, 19, 33, 0.02);
+}
+
+.footer_content {
+  padding: 50px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
